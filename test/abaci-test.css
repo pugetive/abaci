@@ -1,6 +1,6 @@
 body {
   font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
-  padding: 100px;
+  padding: 50px 100px;
   background-color: #fff;
 }
 input, label {
@@ -10,6 +10,8 @@ input, label {
 input {
   font: 18px/24px "Courier New", Courier, monospace;
   border: 1px solid #666;
+  padding: 0 5px;
+  font-weight: bold;
 }
 
 label {
@@ -26,7 +28,7 @@ input.focused {
 }
 
 input.blurred {
-  color: #ccc;
+  color: #999;
   border-color: #ccc;
 }
 
