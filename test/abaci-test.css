@@ -1,0 +1,35 @@
+body {
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+  padding: 100px;
+  background-color: #fff;
+}
+input, label {
+  display: block;
+}
+
+input {
+  font: 18px/24px "Courier New", Courier, monospace;
+  border: 1px solid #666;
+}
+
+label {
+  margin-top: 20px;
+  clear: left;
+}
+
+
+input.focused {
+  border: 1px solid red;
+  -moz-box-shadow: 0px 0px 10px hotpink;
+  -webkit-box-shadow: 0px 0px 10px hotpink;
+  box-shadow: 0px 0px 10px hotpink;
+}
+
+input.blurred {
+  color: #ccc;
+  border-color: #ccc;
+}
+
+label.blurred {
+  color: #ccc;
+}
